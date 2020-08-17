@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeroHelloComponent } from './components/hero-hello/hero-hello.component';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { HeroHelloComponent } from './components/hero-hello/hero-hello.component
     HeroHelloComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

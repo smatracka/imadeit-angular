@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Mont Extra Light';
+}
+@font-face {
+  font-family: 'Mont Extra Light';
+  src: url("assets/fonts/MontDemo-ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Mont Heavy';
+  src: url("assets/fonts/MontDemo-Heavy.otf") format("opentype");
+}
+.half-width {
+  width: 50%;
+}
